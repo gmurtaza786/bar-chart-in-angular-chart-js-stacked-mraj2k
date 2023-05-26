@@ -1,0 +1,36 @@
+<div style="margin-top: 50px">
+  <div style="display: block">
+    <canvas baseChart
+            [datasets]="barChartData_MTD"
+            [labels]="barChartLabels"
+            [options]="barChartOptions_MTD"
+            [legend]="barChartLegend"
+            [chartType]="barChartType"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)"></canvas>
+  </div>
+</div>
+<div>
+  <div style="display: block">
+    <canvas baseChart
+            [datasets]="barChartData_lastMonth"
+            [labels]="barChartLabels"
+            [options]="barChartOptions_lastMonth"
+            [legend]="barChartLegend"
+            [chartType]="barChartType"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)"></canvas>
+  </div>
+</div>
+<div>
+  <div style="display: block">
+    <canvas baseChart
+            [datasets]="barChartData_YTD"
+            [labels]="barChartLabels"
+            [options]="barChartOptions_YTD"
+            [legend]="barChartLegend"
+            [chartType]="barChartType"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)"></canvas>
+  </div>
+</div>
