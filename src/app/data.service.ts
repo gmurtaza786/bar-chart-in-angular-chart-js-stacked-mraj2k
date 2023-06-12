@@ -9,18 +9,18 @@ export class DataService {
     return of([
       {
         label: 'Team',
-        yourRank: '8',
-        total: '2',
+        yourRank: 84.62,
+        total: 100,
       },
       {
         label: 'Site',
-        yourRank: '7',
-        total: '3',
+        yourRank: 93.55,
+        total: 100,
       },
       {
         label: 'Company',
-        yourRank: '5',
-        total: '5',
+        yourRank: 94.61,
+        total: 100,
       },
     ]);
   }
@@ -29,18 +29,18 @@ export class DataService {
     return of([
       {
         label: 'Team',
-        yourRank: '7',
-        total: '3',
+        yourRank: 84.62,
+        total: 100,
       },
       {
         label: 'Site',
-        yourRank: '6',
-        total: '4',
+        yourRank: 87.1,
+        total: 100,
       },
       {
         label: 'Company',
-        yourRank: '4.5',
-        total: '5.5',
+        yourRank: 87.33,
+        total: 100,
       },
     ]);
   }
